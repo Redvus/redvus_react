@@ -1,6 +1,6 @@
 // import {useState} from 'react'
 // import './App.css'
-// import './scss/main.scss';
+import './scss/main.scss';
 import {Component} from "react";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
@@ -11,7 +11,7 @@ class App extends Component {
         return (
             <div className="wrapper" id="App">
                 <Header />
-                <Container content="Content" />
+                <Container />
                 <Footer />
             </div>
         )
